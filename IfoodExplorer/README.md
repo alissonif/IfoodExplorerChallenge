@@ -44,6 +44,9 @@ Acesse o resultado da aplicação [Food Explorer](https://github.com/alissonif/I
 ```bash
 	$ npm install
 ```
+```bash
+	$ npm install react-elastic-carousel --force
+```
 - Inicie o servidor local
 ```bash
 	$ npm run dev
