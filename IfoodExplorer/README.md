@@ -42,7 +42,10 @@ Acesse o resultado da aplicação [Food Explorer](https://github.com/alissonif/I
 ```
 - Instale as dependências
 ```bash
-	$ npm install
+	$ yarn install
+```
+```bash
+	$ npm install react-elastic-carousel --force
 ```
 - Inicie o servidor local
 ```bash
