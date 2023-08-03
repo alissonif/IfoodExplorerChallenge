@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Alisson\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-elastic-carousel
+
+PATH: 
+  C:\Users\Alisson\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Alisson\AppData\Local\Programs\Python\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\GitHub CLI\;C:\Program Files\Tesseract-OCR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\Alisson\AppData\Local\Microsoft\WindowsApps;C:\Users\Alisson\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Alisson\AppData\Roaming\npm;C:\\Program Files\\Tesseract-OCR\\tesseract.exe
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Alisson\Documents\1\IfoodExplorer\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "ifoodexplorer",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.10.1",
+      "react-router-dom": "^6.14.2",
+      "styled-components": "^6.0.5"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.15",
+      "@types/react-dom": "^18.2.7",
+      "@vitejs/plugin-react": "^4.0.3",
+      "eslint": "^8.45.0",
+      "eslint-plugin-react": "^7.32.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.3",
+      "vite": "^4.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
